@@ -1,0 +1,22 @@
+使用extension对数据类型进行扩展
+
+可以使用extension对自定义的struct、class、Swift自带的数据类型如Date进行扩展
+
+如
+```Swift
+struct Test {
+
+}
+
+extension Test {
+    static func sayHello(_ value: String) {
+        print(value)
+    }
+}
+
+Test.sayHello("hello swift")
+```
+此时将会打印``hello swift``
+
+static关键字表示为数据类型Test的静态方法，可以不实例化而直接调用
+
