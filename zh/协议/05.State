@@ -1,0 +1,26 @@
+### State
+
+在 SwiftUI 中，State 是一种属性包装器（property wrapper），用于在视图中管理和存储状态。State 属性包装器允许我们在视图中创建可以在视图生命周期内持久存在的可变状态，并且当状态发生变化时，视图会自动刷新以反映这些变化。
+
+具体使用 State 属性包装器时，您可以在视图中声明一个带有 State 属性包装器的属性，如下所示：
+
+```Swift
+struct ContentView: View {
+    @State private var isToggled: Bool = false
+    
+    var body: some View {
+        Toggle(isOn: $isToggled) {
+            Text("Toggle")
+        }
+    }
+}
+```
+
+在这个示例中，我们在 ContentView 中声明了一个名为 isToggled 的属性，并使用 State 属性包装器来标记它。这意味着 isToggled 是一个可以在视图生命周期内持久存在的可变状态。我们可以在视图中使用这个状态来控制视图的行为，比如在一个 Toggle 中控制开关的状态。
+
+
+State 属性包装器通常用于以下情况：
+- 当需要在视图中管理和存储可变状态时
+- 当需要在视图内部自动触发视图更新以反映状态的变化时
+
+需要注意的是，State 属性包装器用于管理视图内部的状态，因此应该在视图的生命周期内持久存在。如果您需要在多个视图之间共享状态，您可能需要考虑使用其他属性包装器，如 ObservedObject 或 EnvironmentObject。
