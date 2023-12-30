@@ -2,7 +2,7 @@
 
 In SwiftUI, the overlay modifier is used to add an additional layer of content on top of an existing view. It allows you to overlay additional elements such as text, shapes, images, or other views on top of the base view to create a layered effect.
 
-Here’s a simple example demonstrating how to use the overlay modifier to add a text label on top of a rectangle view:
+Here's a simple example demonstrating how to use the overlay modifier to add a text label on top of a rectangle view:
 
 ```Swift
 struct ContentView: View {

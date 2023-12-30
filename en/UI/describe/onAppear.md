@@ -4,7 +4,7 @@ In SwiftUI, .onAppear is a ViewModifier used to perform a specific action when a
 
 For example, .onAppear can be used to trigger a network request, load data, or perform other operations that need to happen immediately after the view is loaded. This ensures that the data is ready and can be displayed to the user as soon as the view is shown.
 
-Here’s an example code snippet:
+Here's an example code snippet:
 
 ```Swift
 struct ContentView: View {
