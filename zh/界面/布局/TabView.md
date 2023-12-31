@@ -56,4 +56,4 @@ TabView的常见用途包括：
 
 总之，TabView可以根据具体的需求和创意，灵活地应用于各种非常规的场景中，扩展其用法并提供更丰富的用户体验。
 
-[tabViewStyle的使用](https://github.com/hiRainn/swift-learn-notes/blob/master/zh/%E7%95%8C%E9%9D%A2/%E4%BF%AE%E9%A5%B0/onAppear.md)
+[tabViewStyle的使用](https://github.com/hiRainn/swift-learn-notes/blob/master/zh/%E7%95%8C%E9%9D%A2/%E4%BF%AE%E9%A5%B0/tabViewStyle.md)

@@ -56,4 +56,4 @@ In addition to being used as a conventional tabbed navigation interface, TabView
 
 In conclusion, TabView can be flexibly applied to various unconventional scenarios, expanding its usage and providing a richer user experience based on specific needs and creativity
 
-
+[Usage of tabViewStype](https://github.com/hiRainn/swift-learn-notes/blob/master/en/UI/describe/tabView.md)

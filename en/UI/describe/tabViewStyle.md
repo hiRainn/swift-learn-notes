@@ -32,5 +32,3 @@ Commonly used tabViewStyle options include:
 In addition to the built-in tabViewStyle options, you can create custom tabViewStyles to customize the appearance and interaction behavior of the TabView. Custom tabViewStyles typically need to conform to the TabViewStyle protocol and implement the corresponding styling logic.
 
 In summary, by using ``.tabViewStyle``, you can easily change the appearance and interaction behavior of the TabView, providing users with a richer user experience.
-
-[Usage of tabViewStype](https://github.com/hiRainn/swift-learn-notes/blob/master/en/UI/describe/tabView.md)
