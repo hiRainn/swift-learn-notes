@@ -25,5 +25,6 @@ struct ContentView: View {
     }
 }
 ```
+
 在这个例子中，当ContentView首次出现在屏幕上时，.onAppear修饰符将触发fetchData方法，从而加载数据并更新界面。
 
