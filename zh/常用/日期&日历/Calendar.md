@@ -27,11 +27,8 @@ func getWeekDays(_ date: Date = .init())
 - Calendar类的dateInterval(of:for:)方法用于获取指定日期的时间间隔。它接受两个参数：第一个参数指定要获取的时间间隔的类型，第二个参数是要获取时间间隔的日期。
 - dateInterval方法返回一个DateInterval对象，其中包含了所请求的时间间隔的起始日期和结束日期。需要注意的是，DateInterval是一个结构体，它包含了起始日期和结束日期，可以方便地用于执行日期范围的操作，比如计算日期范围的长度或检查某个日期是否在范围内。因此下面的startOfWeek调用了WeekForDate?.start
 
-
 calendar.date(byAdding:value:to:)方法来计算每一天的日期。这个方法接受三个参数：
 
 - byAdding: .day表示我们要添加的时间单位是天。
 - value: index表示要添加的数量，它会在每次迭代中增加1，从而获取一周内的每一天。
 - to: startOfWeek表示要将时间添加到哪个日期上，即一周的起始日期。
-
-
