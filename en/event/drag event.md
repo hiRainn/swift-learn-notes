@@ -2,6 +2,7 @@
 
 In SwiftUI, drag events can be implemented using the DragGesture in the Gesture type, as shown below.
 
+```swift
 struct CalendarView: View {
     @State private var currentDate: Date = Date()
     @State private var weekDays: [Date.WeekDay] = []
@@ -33,6 +34,7 @@ struct CalendarView: View {
         }
     }
 }
+```
 
 This code defines a SwiftUI view called CalendarView. It has a state property called currentDate of type Date, a state property called weekDays of type [Date.WeekDay], and a state property called isMoveDate of type Bool.
 
